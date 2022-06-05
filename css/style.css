@@ -9,7 +9,15 @@ body {
 #svg{
   background-color: darkseagreen;
   background: radial-gradient(darkseagreen 0%, black 70%);
-  /* width: 500px; */
-  height: 100vh;
-  width: 100vw;
+  height: 70vh;
+  width: 80vw;
+}
+
+.text-love {
+  animation: love 2s infinite alternate linear;
+}
+
+@keyframes love {
+  from { font-size: 70px; color: yellow;}
+  to { font-size: 80px; color: orangered;}
 }
